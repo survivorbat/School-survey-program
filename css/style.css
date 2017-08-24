@@ -1,0 +1,79 @@
+body {
+	background-image: url('bg.jpg');
+	background-position: fixed;
+	background-size:cover;
+	background-repeat: repeat;
+	font-family:tahoma,arial;
+}
+
+#container {
+	width:80%;
+	min-height:600px;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	border-color:black; border-width:1px;border-style:solid;
+	border-radius:15px 15px 0px 0px ;
+	padding:10px;
+}
+
+h1 {
+	font-size:18px;
+	text-align:Center;
+	font-weight:bold;
+}
+
+.top_text {
+	font-size:90%;
+}
+
+input[type=submit] {
+	padding:5px;
+	background-color:rgb(255,255,100);
+	border-color:rgb(255,255,100);
+	border-width:1px;
+	border-style:solid;
+	font-weight:Bold;
+	border-radius:5px;
+}
+
+input[type=submit]:hover {
+	background-color:rgb(255,255,150);
+}
+
+td {
+	font-size:11px;
+	padding-top:3px;
+	text-align:Center;
+}
+
+table {
+	table-layout : fixed;
+	text-align:Center;
+}
+
+.vraag {
+	font-size:90%;
+	font-weight:bold;
+}
+
+.slecht {
+	background-color:rgba(255, 45, 0,0.3)
+}
+
+.matig {
+	background-color:rgba(255, 173, 0,0.3)
+}
+
+.voldoende {
+	background-color:rgba(210, 255, 0,0.3)
+}
+.goed {
+	background-color:rgba(82, 255, 0,0.3)
+}
+
+.zeer {
+	background-color:rgba(0, 255, 45,0.3)
+}

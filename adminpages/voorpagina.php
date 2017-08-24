@@ -1,0 +1,1 @@
+Welkom op de administrator pagina. Op deze pagina is het mogelijk de resultaten van het formulier te vinden, de vragenlijst aan te passen en gebruikersaccounts aan te passen.

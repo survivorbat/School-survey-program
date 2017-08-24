@@ -1,0 +1,169 @@
+body {
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+#login_container {
+	padding-top:10px;
+	margin: auto;
+	width:350px;
+	min-height:200px;
+}
+
+#login_content {
+	width:350px;
+	min-height:200px;
+	background-color:rgb(102, 204, 255);
+	padding:10px;
+	font-size:20px;
+	border-style: none solid solid  solid;
+	border-width:2px;
+	border-color:#0764f9;
+}
+
+#login_header {
+	border-style: solid;
+	border-width:2px;
+	border-color:#0764f9;
+	width:350px;
+	height:15px;
+	padding:10px;
+	background-color:rgb(0, 153, 255);
+	font-size:17px;
+	font-family:tahoma;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+}
+
+#login_content table tr td {
+	font-size:20px;
+}
+
+#login_content input {
+	padding:3px;
+	border-radius:6px;
+}
+
+.plain_text {
+	font-family:times new roman, arial;
+	text-align:center;
+}
+
+/* Main page */
+
+#container {
+	width:100vw;
+	min-height:100%;
+	overflow-x:hidden;
+	font-family:tahoma;
+}
+
+#sidebar {
+	float:left;
+	width:15%;
+	min-height:100vh;
+	background-color:rgb(0, 101, 255);
+}
+
+#navigatie {
+	margin-left:auto;
+	margin-right:0px;
+	margin-top:170px;
+}
+
+#navigatie td {
+	padding:8px;
+	border-style: none solid none none;
+	border-color: white;
+	border-width:4px;
+	font-family:tahoma;
+	font-size:1.5vw;
+	color:White;
+	cursor:pointer;
+}
+
+#navigatie td:hover {
+	background-color: rgba(255,255,255,0.5)
+}
+
+#header {
+	float:right;
+	width:85%;
+	height:170px;
+	background-color:rgb(64, 86, 119);
+}
+
+#content {
+	float:right;
+	width:85%;
+	min-height:100vh;
+	background-color:#f7f7ff;
+}
+
+#content table {
+	table-layout : fixed;
+	width:100%;
+	text-align:center;
+}
+
+#content input[type=text], input[type=password], textarea {
+	border-radius:5px;
+	background-color:#FFFFFF;
+	padding:5px;
+}
+#content input[type=text]:focus,textarea:focus {
+	border-color:red;
+}
+
+#content input[type=submit] {
+	padding:6px;
+	background-color:#EEEEFF;
+	border-color:blue;
+	border-radius:5px;
+}
+#content input[type=submit]:hover,textarea:hover {
+	background-color:#FFFFFF;
+	border-color:red;
+}
+
+#content input[type=submit]:disabled {
+	background-color:#DDDDDD;
+	text-decoration: line-through;
+}
+
+.kleurrij:nth-child(even) {background: rgba(0,0,255,0.05)}
+.kleurrij:nth-child(odd) {background: rgba(0,0,255,0.1)}
+.opmerkingrij {background: rgba(0,0,255,0.25)}
+
+.slecht {
+	background-color:rgba(255, 45, 0,0.3)
+}
+
+.matig {
+	background-color:rgba(255, 173, 0,0.3)
+}
+
+.voldoende {
+	background-color:rgba(210, 255, 0,0.3)
+}
+.goed {
+	background-color:rgba(82, 255, 0,0.3)
+}
+
+.zeer {
+	background-color:rgba(0, 255, 45,0.3)
+}
+
+.contentblock {
+	display:none;
+}
+
+#textarea_logboek {
+	font-size:10px;
+	background-color:black;
+	color:rgb(0,255,0);
+	overflow-y:scroll;
+}

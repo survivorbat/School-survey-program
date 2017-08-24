@@ -1,0 +1,51 @@
+#######################################################################
+#     Diese .htaccess wurde vom STRATO-Webservermanager erstellt      #
+#######################################################################
+
+
+
+
+AuthUserFile /mnt/rid/53/29/57925329/htdocs/.htuser
+
+
+AuthGroupFile /mnt/rid/53/29/57925329/htdocs/.htgroup
+
+
+AuthName "beschermde omgeving"
+AuthType Basic
+
+ 
+require user maarten 
+
+
+require group admins 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
